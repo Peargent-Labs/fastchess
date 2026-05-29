@@ -1,0 +1,3 @@
+include fastchess.c
+include README.md
+include LICENSE

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "numpy"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "fastchess"
+version = "0.1.0"
+description = "High-performance Python chess library in C: legal move generation, SAN/UCI parsing, and NumPy tensor export"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "PeargentLabs", email = "tarun.peargentlabs@gmail.com" },
+]
+requires-python = ">=3.8"
+dependencies = ["numpy"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Games/Entertainment :: Board Games",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
