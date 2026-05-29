@@ -4,7 +4,7 @@
  * Implements mailbox-based board representation, legal move generation,
  * SAN parsing, board mirroring, and board-to-tensor conversion.
  * Designed as a high-performance drop-in for python-chess in the
- * Sage data pipeline.
+ * Otter data pipeline.
  *
  * Build: python setup.py build_ext --inplace
  */
