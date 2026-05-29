@@ -14,11 +14,6 @@ authors = [
 ]
 requires-python = ">=3.8"
 dependencies = ["numpy"]
-[project.urls]
-Homepage = "https://github.com/Peargent-Labs/fastchess"
-Repository = "https://github.com/Peargent-Labs/fastchess"
-"Bug Tracker" = "https://github.com/Peargent-Labs/fastchess/issues"
-
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: C",
@@ -28,3 +23,8 @@ classifiers = [
     "Topic :: Games/Entertainment :: Board Games",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Peargent-Labs/fastchess"
+Repository = "https://github.com/Peargent-Labs/fastchess"
+"Bug Tracker" = "https://github.com/Peargent-Labs/fastchess/issues"
